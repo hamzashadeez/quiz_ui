@@ -1,0 +1,134 @@
+.main{
+    /* background-color: lightskyblue; */
+    margin: 30px 15px 30px 0;
+    width: 100%;
+    padding: 10px
+}
+.block1{
+    background-color: rgb(247, 249, 249);
+    padding: 0 30px;
+    margin-bottom: 0;
+    border-radius: 15px;
+
+}
+.block1 > div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.block1 > div > h5{
+    color:rgb(45, 94, 108);
+    margin-right: 3px;
+    font-size: 15px;
+    margin: 0;
+}
+.block2{
+    background-color: #fff;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    height: 45px;
+    border-bottom: 2px solid rgb(200, 201, 201);
+}
+.sectionLabels{
+    display: flex;
+    background-color: white;
+    padding:0;
+    flex: .75;
+    align-items: flex-end;
+}
+.stats{
+    display: flex;
+    flex: .25;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.stat{
+    color: rgb(121, 152, 161)
+}
+.labels{
+    color:rgb(93,204,184);
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-bottom: 1px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid rgb(93,204,184);
+}
+.labels:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+#unselected{
+    border-bottom: 5px solid #fff;
+}
+
+.Maincontainer{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.markheader{
+    background-color: rgb(247, 249, 249);
+    padding: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* height: 70px */
+    
+}
+.markheader > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ln{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 45px;
+}
+.circle{
+    background-color: rgb(2, 38, 54);
+    color: #fff;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+#matching{
+    color: rgb(200, 201, 201);
+    font-weight: 500;
+    font-size: 15px;
+}
+#title{
+    margin: 0;
+    color: rgb(135, 163, 171);
+    font-size: 14px;
+    font-weight: 500;
+}
+.box{
+    background-color: rgb(247, 249, 249);
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 3px
+}
+
+.btncon{
+    margin-top: 15px;
+    display: flex;
+    padding: 0 30px;
+}
+.left_btns{
+    flex: 1
+}
